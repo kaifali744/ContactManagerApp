@@ -1,10 +1,11 @@
 # Contact Manager App 📇
 
-Contact Manager App is an Android project designed to practice using RoomDB, MVVM architecture, and DataBinding. The app allows users to add contacts with a name and email. Once a contact is saved, it is displayed on the main screen as a RecyclerView item and stored in RoomDB. The app also includes animations for RecyclerView items.
+Contact Manager App is an Android project designed to practice using RoomDB, MVVM architecture, and DataBinding. The app allows users to add contacts with a name and email. Once a contact is saved, it is displayed on the main screen as a CardView item within a RecyclerView and stored in RoomDB. The app also includes a search bar at the top of the main screen to search for contacts and animations for RecyclerView items.
 
 ## Features
 - **Main Screen:**
-  - Displays a list of contacts using RecyclerView.
+  - Displays a list of contacts using RecyclerView with CardView items.
+  - Search bar at the top to filter contacts.
   - Contacts are stored in RoomDB for persistent storage.
   - Animations are applied to RecyclerView items for a smoother user experience.
   
@@ -18,9 +19,11 @@ Contact Manager App is an Android project designed to practice using RoomDB, MVV
 - RoomDB
 - MVVM (Model-View-ViewModel) Architecture
 - DataBinding
-- RecyclerView
+- RecyclerView with CardView
 - Animations
+- SearchView
 
+  
 ## Screenshots
 - **Main Screen:**
 
